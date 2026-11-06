@@ -1,6 +1,6 @@
 # License-text provenance
 
-These files preserve the relevant license texts and selected original notices for the plugin's dependencies. Every original notice is also retained in the matching upstream source supplied with the release.
+These files preserve the relevant license texts and selected original notices for the plugin's dependencies. Original notices remain in the matching upstream sources identified in `THIRD_PARTY_NOTICES.md`.
 
 - `GPL-2.0.txt`: copied unchanged from this project's `LICENSE`, the GNU GPL version 2 text. Used with the GPL grants identified in `THIRD_PARTY_NOTICES.md`.
 - `GPL-3.0.txt`: copied unchanged from `LICENSE.txt` in MeshLab commit `dc48b91ae562756a6988048c5d5c7f1d2b687256`; the pinned VCGLib source supplies the same license version.
@@ -8,6 +8,6 @@ These files preserve the relevant license texts and selected original notices fo
 - `MeshLab-NOTICES.txt`: original initial notice from the pinned MeshLab `src/common/plugins/interfaces/filter_plugin.h`.
 - `VCGLib-NOTICES.txt`: original initial notice from the pinned VCGLib `vcg/space/point3.h`.
 - `Eigen-NOTICES.txt`: original notices from the pinned VCGLib `eigenlib/Eigen/Core` and `eigenlib/Eigen/src/Core/util/Macros.h`.
-- `Qt-NOTICES.txt`: original initial notices from Qt 5.15.2 `QtCore/qglobal.h` and `QtWidgets/qdialog.h`. The plugin distribution selects their GPL licensing option; no LGPL license-text download is needed for that choice.
+- `Qt-NOTICES.txt`: original initial notices from Qt 5.15.2 `QtCore/qglobal.h` and `QtWidgets/qdialog.h`. The plugin distribution selects their GPL licensing option.
 
 The original source headers are authoritative for each file's copyright and licensing grant. These acknowledgments do not change those grants or restrict the recipients' rights under them.
