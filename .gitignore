@@ -1,0 +1,13 @@
+/vendor/
+/tools/
+/build/
+/dist/
+/aqtinstall.log
+*.obj
+*.exe
+*.pdb
+*.dll
+*.lib
+*.exp
+*.ilk
+*.zip
